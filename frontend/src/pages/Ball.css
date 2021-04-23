@@ -1,0 +1,64 @@
+.header {
+  margin-top: 1em;
+  padding: 3px;
+  color: transparent;
+  background-image: linear-gradient(
+    to right,
+    green,
+    white,
+    red,
+    yellow,
+    orange,
+    lightblue,
+    pink
+  );
+  -webkit-background-clip: text;
+  animation: coloring 15s linear infinite;
+  -webkit-background-size: 1000%;
+  background-size: 1000%;
+  text-align: center;
+}
+
+@keyframes coloring {
+  0% {
+    background-position: 0% 100%;
+  }
+
+  50% {
+    background-position: 100% 0%;
+  }
+
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+.inputData {
+  padding: 100px;
+}
+
+.id {
+  margin-top: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 120%;
+  color: #f3a694;
+}
+
+.container-fluid {
+  margin-top: 2em;
+}
+
+.showing {
+  border: solid greenyellow 2px;
+  margin-top: 1em;
+  padding: 10px;
+}
+
+.show {
+  margin-top: 3em;
+  color: #f3a694;
+}
+
+span {
+  color: rgb(253, 99, 181);
+}

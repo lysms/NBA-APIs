@@ -15,7 +15,9 @@ There are total of 25 pages of statistics like this. So the `/player` only retur
 ```
 
 - There is one endpoint is based on enter the player's name. the endpoint is `/player/name`. The name is the player name that you want to enter. For example: `localhost:3030/player/Anthony Davis` will return the following statistics.
-  `{"data":[{"id":117,"first_name":"Anthony","height_feet":6,"height_inches":10,"last_name":"Davis","position":"F-C","team":{"id":14,"abbreviation":"LAL","city":"Los Angeles","conference":"West","division":"Pacific","full_name":"Los Angeles Lakers","name":"Lakers"},"weight_pounds":253}],"meta":{"total_pages":1,"current_page":1,"next_page":null,"per_page":25,"total_count":1}}`
+  ```
+  {"data":[{"id":117,"first_name":"Anthony","height_feet":6,"height_inches":10,"last_name":"Davis","position":"F-C","team":{"id":14,"abbreviation":"LAL","city":"Los Angeles","conference":"West","division":"Pacific","full_name":"Los Angeles Lakers","name":"Lakers"},"weight_pounds":253}],"meta":{"total_pages":1,"current_page":1,"next_page":null,"per_page":25,"total_count":1}}
+  ```
 
 ## There are also some expect input value for POST method for the public APIs.
 

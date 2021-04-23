@@ -3,7 +3,7 @@
 ## Yanshen Lin (liny16)
 
 - I start at 8:20AM this morning and finished at 10:40AM.
-- There are two server port for my application. One is 3000 (frontend), the other is (3030) backend
+- There are two server port for my application. One is 3000 (frontend), the other is 3030 (backend)
 
 ## Citations
 
